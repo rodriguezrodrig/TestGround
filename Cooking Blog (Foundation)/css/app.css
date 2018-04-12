@@ -1,0 +1,89 @@
+.header{
+  border-radius: 2px;
+  background-color: white;
+}
+.slogan>h6{
+  text-align: right;
+  font-style: italic;
+  padding-right: 5px;
+}
+.slogan>h2{
+  padding-left: 3px;
+}
+
+.slogan{
+  border-right: 1px solid gray;
+
+}
+
+.menu{
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  align-items: flex-start;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.content{
+  border-top: 1px solid gray;
+}
+
+.column>a{
+  padding: 0px;
+}
+
+.background{
+  background-image: url(../img/backscreen.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container>div{
+  background-color: rgba(189, 189, 189, 0.7);
+}
+
+.screen{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.news{
+  width: 100%;
+}
+
+.main-section{
+  border-radius:
+}
+
+.commenticon{
+  width:90px;
+}
+
+.card-divider{
+  background-color: #878f99
+}
+.card-section{
+  background-color: #e6e6e6
+}
+
+.animated-search-form[type=search] {
+  width: 10rem;
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 0;
+  background-image: url(../img/searchicon.png);
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+}
+
+.animated-search-form[type=search]:focus {
+  width: 100%;
+}
